@@ -1,5 +1,6 @@
 #include <iostream>
 #include <limits>
+#include <iomanip>
 using namespace std;
 int main(){
     float i;
@@ -16,6 +17,14 @@ int main(){
     cout << "min double = " << numeric_limits<double>::min() << "\n";
     cout << "max long double = " << numeric_limits<long double>::max() << "\n";
     cout << "min long double = " << numeric_limits<long double>::min() << "\n";
+
+    float x;
+    double y;
+    long double z;
+    x=y=z = 1/3.0;  
+    cout << fixed << setprecision(32) << "x= " << x << "\n";
+    cout << fixed << setprecision(32) << "y= " << y << "\n";
+    cout << fixed << setprecision(32) << "z= " << z << "\n";
 
     return 0;
 }
