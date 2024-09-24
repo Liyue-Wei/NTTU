@@ -4,6 +4,7 @@
         "limits": "cpp",
         "iomanip": "cpp",
         "xstring": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "ios": "cpp"
     }
 }
