@@ -2,7 +2,7 @@
 #include <limits>
 #include <iomanip>
 using namespace std;
-int main(){
+int main() {
     float i;
     double i_2;
     long double n;
