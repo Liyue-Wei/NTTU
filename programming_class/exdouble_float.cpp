@@ -21,10 +21,11 @@ int main() {
     float x;
     double y;
     long double z;
+    cout.setf(ios::fixed);
     x=y=z = 1/3.0;  
-    cout << fixed << setprecision(32) << "x= " << x << "\n";
-    cout << fixed << setprecision(32) << "y= " << y << "\n";
-    cout << fixed << setprecision(32) << "z= " << z << "\n";
+    cout << setprecision(32) << "x= " << x << "\n";
+    cout << setprecision(32) << "y= " << y << "\n";
+    cout << setprecision(32) << "z= " << z << "\n";
 
     return 0;
 }

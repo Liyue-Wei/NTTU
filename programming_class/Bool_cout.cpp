@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main(){
+int main() {
     bool flag = true;
     cout.setf(ios::boolalpha);
     cout << flag << "\n";
