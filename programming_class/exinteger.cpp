@@ -1,7 +1,7 @@
 #include <iostream>
 #include <limits>
 using namespace std;
-int main(){
+int main() {
     int i;
     long n;
     long long t;
