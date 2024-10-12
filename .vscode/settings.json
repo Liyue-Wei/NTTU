@@ -6,5 +6,6 @@
         "xstring": "cpp",
         "xiosbase": "cpp",
         "ios": "cpp"
-    }
+    },
+    "dotnet.preferCSharpExtension": true
 }
